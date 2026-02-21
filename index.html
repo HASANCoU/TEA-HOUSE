@@ -56,7 +56,7 @@
         <img src="./images/banner.png" alt="Banner Image" />
         <!-- Rating Div -->
         <div
-          class="flex w-64 justify-center items-center gap-2 rounded-2xl bg-white shadow-2xl absolute bottom-[15px] left-[220px] py-[25px] px-[15px]"
+          class="flex w-64 justify-center items-center gap-2 rounded-2xl bg-white shadow-2xl absolute bottom-[15px] left-3 sm:left-[220px] md:left-[220px] py-[25px] px-[15px]"
         >
           <img src="./images/rating_star.png" alt="Rating" />
           <div>
@@ -128,16 +128,26 @@
     </section>
 
     <!-- Great Tea -->
-    <section class="grid grid-cols-2 gap-12 mb-23 max-w-[90%] mx-auto">
-      <div class="grid grid-cols-2 grid-rows-3 gap-8">
-        <div class="bg-linear-to-r from-[#FF0000] to-[#FF8938] rounded-md row-span-1"></div>
-        <div class="bg-[rgba(230,166,35,0.1)] rounded-md row-span-2 flex justify-center items-center">
-          <img src="./images/fresh-1.png" alt="Fresh Tea 2">
+    <section
+      class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-23 max-w-[90%] mx-auto"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-3 gap-8">
+        <div
+          class="bg-linear-to-r from-[#FF0000] to-[#FF8938] rounded-md row-span-1"
+        ></div>
+        <div
+          class="bg-[rgba(230,166,35,0.1)] rounded-md row-span-2 flex justify-center items-center"
+        >
+          <img src="./images/fresh-1.png" alt="Fresh Tea 2" />
         </div>
-        <div class="bg-[rgba(87,118,57,0.1)] rounded-md row-span-2 flex justify-center items-center">
-          <img src="./images/fresh-2.png" alt="Fresh Tea 2">
+        <div
+          class="bg-[rgba(87,118,57,0.1)] rounded-md row-span-2 flex justify-center items-center"
+        >
+          <img src="./images/fresh-2.png" alt="Fresh Tea 2" />
         </div>
-        <div class="bg-linear-to-r from-[#D9D9D9] to-[#ffffff] rounded-md row-span-1"></div>
+        <div
+          class="bg-linear-to-r from-[#D9D9D9] to-[#ffffff] rounded-md row-span-1"
+        ></div>
       </div>
       <div class="space-y-5">
         <h2 class="font-extrabold text-5xl text-[#1c1c1c] leading-15">
@@ -162,6 +172,89 @@
         </p>
       </div>
     </section>
+
+    <!-- Meet Our super Clients -->
+    <section
+      class="container max-w-[90%] mx-auto p-22 rounded-md mb-21 grid grid-clos-1 lg:grid-cols-2 bg-linear-to-r to-[#FF0000] from-[#FF8938] gap-40"
+    >
+      <div class="meet-our-super-clients-left text-white flex items-center">
+        <div class="space-y-6">
+          <h2 class="font-extrabold text-5xl leading-17">
+            Meet Our Super <br />Clients
+          </h2>
+          <p class="font-medium leading-7 text-[16px]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button class="font-bold text-xl bg-white px-5 py-3 rounded-md">
+            <span
+              class="bg-linear-to-r from-[#FF0000] to-[#FF8938] bg-clip-text text-transparent"
+              >Show All</span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="meet-our-super-clients-right relative space-y-8">
+        <!-- Review Card -->
+        <div
+          class="space-y-0.5 p-10 bg-[#ffffff] rounded-md max-w-[460px] absolute -left-30 top-30 z-50"
+        >
+          <div class="rounded-full p-0.5 bg-white absolute -left-6 -top-6">
+            <img src="./images/client.png" alt="Client Image" />
+          </div>
+          <p class="leading-7 text-[16px] text-[#777777]">
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h4 class="font-bold text-[16px] leading-7">Ilham Yuda</h4>
+          <p class="font-medium text-[16px] leading-7 text-[#5D5A6F]">
+            Businessman
+          </p>
+          <img
+            src="./images/circles.png"
+            alt="Circle"
+            class="absolute bottom-8 right-8"
+          />
+        </div>
+
+        <!-- Review Card -->
+        <div
+          class="space-y-0.5 p-10 bg-[#ffffff] rounded-md max-w-[460px] z-10 opacity-40"
+        >
+          <div class="rounded-full p-0.5 bg-white absolute -left-6 -top-6">
+            <img src="./images/client.png" alt="Client Image" />
+          </div>
+          <p class="leading-7 text-[16px] text-[#777777]">
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h4 class="font-bold text-[16px] leading-7">Ilham Yuda</h4>
+          <p class="font-medium text-[16px] leading-7 text-[#5D5A6F]">
+            Businessman
+          </p>
+        </div>
+
+        <!-- Review Card -->
+        <div
+          class="space-y-0.5 p-10 bg-[#ffffff] rounded-md max-w-[460px] z-10 opacity-40"
+        >
+          <div class="rounded-full p-0.5 bg-white absolute -left-6 -top-6">
+            <img src="./images/client.png" alt="Client Image" />
+          </div>
+          <p class="leading-7 text-[16px] text-[#777777]">
+            We are providing the best and suitable home insurance services for
+            the people who are interested to treatment
+          </p>
+          <h4 class="font-bold text-[16px] leading-7">Ilham Yuda</h4>
+          <p class="font-medium text-[16px] leading-7 text-[#5D5A6F]">
+            Businessman
+          </p>
+        </div>
+      </div>
+    </section>
+
     <!-- News and Events -->
     <section class="container space-y-2 mx-auto max-w-[90%] mb-5">
       <!-- Heading Div -->
